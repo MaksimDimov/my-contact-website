@@ -17,7 +17,9 @@ You can visit my website [here](https://maksimdimov.github.io/my-contact-website
 
 If you'd like to get in touch, you can reach me at the following places:
 
-GitHub: [MaksimDimov]()
+GitHub: [MaksimDimov](https://github.com/MaksimDimov)
+
 LinkedIn: [Maksim Dimov](https://www.linkedin.com/in/maksim-dimov-6027ba299/)
+
 Email: maksim.dimov228@gmail.com
 And feel free to check my projects at my GitHub page and give some feedbacks!
