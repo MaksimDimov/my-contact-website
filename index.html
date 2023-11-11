@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maksym Dimov">
     <meta name="description" content="My website">
     <meta name="keywords" content="web developer, web, developer, front-end, html, css, javascript, react, sql">
@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,500;1,6..12,500&family=Playball&family=Roboto+Mono:wght@300;400;500;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <title>My contact website</title>
 </head>
 <body>
@@ -20,12 +21,93 @@
             <i class="fa-solid fa-laptop"></i>
         </div>
         <ul class="nav-list">
-            <li><a href="#about" class="about-us">About</a></li>
+            <li><a href="#about" class="about-me">About me</a></li>
             <li><a href="#contact" class="contact-me">Contact me</a></li>
+            <li><a href="#projects" class="contact-me">Projects</a></li>
         </ul>
     </header>
+    <div class="hero-banner">
+        <h2>Hello, World!</h2>
+        <p class="hero-text">Welcome to my Website! I am Maksim, and I'm a software development. 
+            I'm passionate about coding and always eager to learn more. Here, you'll find some of the projects 
+            that I've worked on during my journey. Enjoy your stay!
+        </p>
+        <a href="#projects" class="hero-btn">View Projects</a>
+    </div>
     <main>
+        <div class="container">
+            <h2 id="about">About me</h2>
+            <p class="text">
+                Hello, world. I'm Maksim Dimov, an programmer based in Winnipeg, Canada.
+                I'm a software developer with a great interest in programming. With 1 year of learning the industry,
+                I've had the opportunity to work on various exciting projects and collaborate with amazing teams.
+                My goal is to constantly learn and improve, and to create valuable and innovative solutions.
+                My programming experience includes JavaScript, Node, React, C#. Would you like to know more? Get in touch. 
+                I look forward to hearing from you.
+            </p>
+            <div id="projects">
+                <h2>Projects</h2>
+                <div class="project-examples">
+                    <div class="project-hidden-text">
+                        <p class="centered-text">web-development</p>
+                        <img src="./assets/media/web-development.jfif" class="project-image" alt="photo 1">
+                        <p class="project-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, illo quidem. 
+                            Corrupti nam deserunt odio unde ipsum inventore fugiat doloremque dicta iusto laborum! Cumque, 
+                            sed nemo in adipisci esse corrupti?
+                        </p>
+                    </div>
+                    <div class="project-hidden-text">
+                        <p class="centered-text">Programs for phones</p>
+                        <img src="./assets/media/mobile-coding.jpg" class="project-image" alt="photo 1">
+                        <p class="project-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, illo quidem. 
+                            Corrupti nam deserunt odio unde ipsum inventore fugiat doloremque dicta iusto laborum! Cumque, 
+                            sed nemo in adipisci esse corrupti?
+                        </p>
+                    </div>
+                    <div class="project-hidden-text">
+                        <p class="centered-text">Team projects</p>
+                        <img src="./assets/media/programming-team-development-working-together-on-the-office-free-vector.jpg" class="project-image" alt="photo 1">
+                        <p class="project-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, illo quidem. 
+                            Corrupti nam deserunt odio unde ipsum inventore fugiat doloremque dicta iusto laborum! Cumque, 
+                            sed nemo in adipisci esse corrupti?
+                        </p>
+                    </div>
+                    <div class="project-hidden-text">
+                        <p class="centered-text">Volunteering</p>
+                        <img src="./assets/media/Screenshot_2 (1).png" class="project-image" alt="photo 1">
+                        <p class="project-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, illo quidem. 
+                            Corrupti nam deserunt odio unde ipsum inventore fugiat doloremque dicta iusto laborum! Cumque, 
+                            sed nemo in adipisci esse corrupti?
+                        </p>
+                    </div>
 
+                </div>
+            </div>
+            <h2 id="contact">Contact me</h2>
+            <div>
+                <div class="contact-me-text">
+                    <p >
+                        I'm thrilled to connect with you. Whether you have a question about my projects, want to discuss
+                        a potential collaboration, or just want to say hi, feel free to reach out. I'm always open to new
+                        opportunities and conversations. I will answer in 48 hours.
+                    </p>
+                </div>
+                <div class="contact-me-form-height">
+                    <form class="contact-me-form" action="/submit-form" method="POST">
+                        <label for="name-input">Your name:</label>
+                        <input type="text" class="name-input" placeholder="Example: Jon Smith" name="name" required>
+                        <label for="email-input">Your email:</label>
+                        <input type="email" class="email-input" placeholder="Example: jon.smith@gmail.com" name="email" required>
+                        <label for="message-textarea">Your message:</label>
+                        <textarea class="message-textarea" name="message"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
